@@ -50,8 +50,7 @@ line3 = input("Line 3: ")
 # going to add that to the file
 print("I'm going to write these to the file.")
 
-# we are using list_name.write() to add to the .txt file
-# 
+# we are using filename.write() to add to the .txt file
 target.write(line1)
 target.write("\n")
 target.write(line2)
