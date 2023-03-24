@@ -23,5 +23,7 @@ print(f"Here's your file {filename}:")
 # the txt file we have given. 
 print(txt.read()) 
 
+# When you are done, close the file.
+txt.close()
 
 

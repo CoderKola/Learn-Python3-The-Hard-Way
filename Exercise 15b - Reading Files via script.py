@@ -22,6 +22,10 @@ txt_file = open(file_name)
 # we are commanding the txt_file.read() to be read
 print(txt_file.read())
 
+# When you are done reading the file, make sure to close it.
+txt_file.close()
+
+
 
 # Example 2
 # print("Enter your file name: ")
