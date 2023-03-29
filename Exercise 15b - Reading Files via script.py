@@ -26,7 +26,6 @@ print(txt_file.read())
 txt_file.close()
 
 
-
 # Example 2
 # print("Enter your file name: ")
 # file_name_prompt = input("> ")

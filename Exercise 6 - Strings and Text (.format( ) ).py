@@ -39,12 +39,19 @@ print(f"I said: {y}")
 hilarious = True
 joke_evaluation = "Isn't that joke so funny?! {}"
 
+
 # .format() was used and inside the parameter was the 'hilarious' variable which was printed out.
 # The '.format()' is used by:
 # variable1.format(variable2)
 # String is put inside a string (4)
+    # Method 1
 print(joke_evaluation.format(hilarious))  #KEY POINT
-
+    # Method 2
+print("I hope this works. I didn't include the f-string method here. But I am using the .format() method. Does this work? {}".format(hilarious))
+    # Another method 2 example
+name = "Bob"
+age = 30
+print("My name is {n} and I am {a} years old".format(n=name, a=age))
 
 #Concanating Strings
 w = "This is the left side of..."

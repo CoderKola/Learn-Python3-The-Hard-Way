@@ -60,3 +60,6 @@ happy_day = """
 I am mostly happy on {} days.\nI tend to frolic a lot with my partner.\nWe get {}\\{} time to time."""
 happy_day_mod = happy_day.format('sunny','coffee','carbonated drinks')
 print(happy_day_mod)
+
+###### Examples
+

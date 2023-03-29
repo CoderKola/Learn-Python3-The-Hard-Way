@@ -18,3 +18,6 @@ Even 4 lines if we want, or 5, or 6.
 
 test = "This is the first line.\nThis is the second line\nThis is the third line."
 print(test)
+
+print("Sam\\nple")
+print("Samp\nle")

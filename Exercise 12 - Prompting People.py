@@ -7,7 +7,8 @@ height = input("How tall are you? ")
 weight = input("How much do you weigh? ")
 
 print(f"So, you're {age} old, {height} tall and {weight} heavy.")
-
+print("OR")
+print("So you're {} old,{} tall and {} heavy.".format(age,height,weight))
 # If you do it this way, the results are saved to the variable.
 
 
